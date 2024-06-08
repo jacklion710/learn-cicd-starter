@@ -40,4 +40,5 @@ jobs:
           echo $?
 
       - name: Install staticcheck
-        run: go install honnef.co/go/cmd/staticcheck@latest
+        run: go install honnef.co/go/tools/cmd/staticcheck@latest
+
